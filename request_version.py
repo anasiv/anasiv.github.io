@@ -1,4 +1,3 @@
 import requests
 
-result = requests.get("http://google.com")
-print (result.text)
+print (requests.get("https://raw.githubusercontent.com/anasiv/CMPUT404-labs/lab1/request_version.py").text)
